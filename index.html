@@ -1,199 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titan Real Estate</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titan Real Estate</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
+
 <body>
 
-    <nav class="navbar navbar-dark  fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">TITAN REAL ESTATE</a>
-          <ul class="navbar-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="properties.html">Properties</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="about.html">About Us</a></li>
-          </ul>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">TITAN REAL ESTATE</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   Properties
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Villa</a></li>
-                    <li><a class="dropdown-item" href="#">Apartment</a></li>
-                    <li><a class="dropdown-item" href="#">Residance</a></li>          
-                    <li><a class="dropdown-item" href="#">Farm</a></li>    
-                  </ul>
-                </li>
+  <nav class="navbar navbar-dark  fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TITAN REAL ESTATE</a>
+      <ul class="navbar-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">TITAN REAL ESTATE</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Properties
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Villa</a></li>
+                <li><a class="dropdown-item" href="#">Apartment</a></li>
+                <li><a class="dropdown-item" href="#">Residance</a></li>
+                <li><a class="dropdown-item" href="#">Farm</a></li>
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn" type="submit">Search</button>
-              </form>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content">
+    <div class="row justify-content-center">
+
+      <div class="col-12">
+        <div class="img-index"></div>
+      </div>
+
+      <div class="mt-5 mb-5 col-3">
+
+        <div data-aos="fade-right">
+          <div class="card">
+            <div class="card-header">
+              Villa
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>A well-known quote, contained in a blockquote element.</p>
+                <footer class="blockquote-footer">Emircan ÇUBUKCU<br><cite title="Source Title">Back-end
+                    developer</cite></footer>
+              </blockquote>
             </div>
           </div>
         </div>
-      </nav>
 
-
-
-         <!-- Footer -->
-<footer class="text-center text-lg-start text-muted">
-  <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
-
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-        </div>
-        <!-- Grid column -->
       </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
 
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2023 Copyright:
-    <a class="ta" href="">TeamAnonymous.html</a>
+      <div class="mt-5 mb-5 col-3">
+
+        <div data-aos="fade-up">
+          <div class="card">
+            <div class="card-header">
+              Apartment
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>A well-known quote, contained in a blockquote element.</p>
+                <footer class="blockquote-footer">Yıldırım DEMİR<br><cite title="Source Title">Full-stack
+                    developer</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-5 mb-5 col-3">
+
+        <div data-aos="fade-left">
+          <div class="card">
+            <div class="card-header">
+              Residance
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>A well-known quote, contained in a blockquote element.</p>
+                <footer class="blockquote-footer">Devren SEVER<br><cite title="Source Title">Front-end developer</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <div class="row justify-content-center">
+
+      <div class="mt-5 col-6">
+
+        <div data-aos="zoom-in-right">
+          <div class="img-index-villa">
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="parag d-flex align-items-center mt-5 col-6">
+        <div data-aos="fade-up" data-aos-duration="8000">
+          <h1>VILLA</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quasi reiciendis optio eius adipisci,
+            ut molestias quae amet minima in rem quibusdam libero! Fuga nisi dicta aspernatur cumque eaque laboriosam!
+            Nihil nisi, nesciunt consequatur aspernatur maxime voluptas mollitia perspiciatis, placeat fuga ducimus
+            soluta pariatur non eligendi impedit cum. Sequi esse ratione odit excepturi natus praesentium, dicta totam
+            rem incidunt amet.
+            Nulla modi magnam iusto officia aliquam velit sunt amet ipsam eos quidem pariatur facere nihil accusantium,
+            nam laboriosam. Distinctio sequi repellendus explicabo eum, numquam est quibusdam at esse quaerat deleniti?
+            Quae pariatur tempore, alias ipsa laudantium iusto blanditiis velit sapiente reprehenderit. Dicta ad non
+            perferendis. A, minima unde similique vel eos velit ratione quisquam dolorem mollitia quibusdam id dolores
+            laboriosam.
+            Esse voluptas, ducimus dignissimos tempore pariatur perspiciatis cupiditate in debitis culpa, perferendis
+            veritatis quidem, quibusdam hic inventore maxime placeat numquam quasi autem commodi ea. Ipsam eius placeat
+            quia voluptatibus blanditiis?</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row justify-content-center">
+
+      <div class="parag d-flex align-items-center mt-5 col-6">
+        <div data-aos="fade-up" data-aos-duration="8000">
+          <h1>APARTMENT</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quasi reiciendis optio eius adipisci,
+            ut molestias quae amet minima in rem quibusdam libero! Fuga nisi dicta aspernatur cumque eaque laboriosam!
+            Nihil nisi, nesciunt consequatur aspernatur maxime voluptas mollitia perspiciatis, placeat fuga ducimus
+            soluta pariatur non eligendi impedit cum. Sequi esse ratione odit excepturi natus praesentium, dicta totam
+            rem incidunt amet.
+            Nulla modi magnam iusto officia aliquam velit sunt amet ipsam eos quidem pariatur facere nihil accusantium,
+            nam laboriosam. Distinctio sequi repellendus explicabo eum, numquam est quibusdam at esse quaerat deleniti?
+            Quae pariatur tempore, alias ipsa laudantium iusto blanditiis velit sapiente reprehenderit. Dicta ad non
+            perferendis. A, minima unde similique vel eos velit ratione quisquam dolorem mollitia quibusdam id dolores
+            laboriosam.
+            Esse voluptas, ducimus dignissimos tempore pariatur perspiciatis cupiditate in debitis culpa, perferendis
+            veritatis quidem, quibusdam hic inventore maxime placeat numquam quasi autem commodi ea. Ipsam eius placeat
+            quia voluptatibus blanditiis?</p>
+        </div>
+      </div>
+
+      <div class="mt-5 col-6">
+
+        <div data-aos="zoom-in-left">
+          <div class="img-index-apartmen">
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row justify-content-center">
+
+
+      <div class="mt-5 col-6">
+
+        <div data-aos="zoom-in-right">
+          <div class="img-index-residance">
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="parag d-flex align-items-center mt-5 col-6">
+        <div data-aos="fade-up" data-aos-duration="8000">
+          <h1>RESIDANCE</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quasi reiciendis optio eius adipisci,
+            ut molestias quae amet minima in rem quibusdam libero! Fuga nisi dicta aspernatur cumque eaque laboriosam!
+            Nihil nisi, nesciunt consequatur aspernatur maxime voluptas mollitia perspiciatis, placeat fuga ducimus
+            soluta pariatur non eligendi impedit cum. Sequi esse ratione odit excepturi natus praesentium, dicta totam
+            rem incidunt amet.
+            Nulla modi magnam iusto officia aliquam velit sunt amet ipsam eos quidem pariatur facere nihil accusantium,
+            nam laboriosam. Distinctio sequi repellendus explicabo eum, numquam est quibusdam at esse quaerat deleniti?
+            Quae pariatur tempore, alias ipsa laudantium iusto blanditiis velit sapiente reprehenderit. Dicta ad non
+            perferendis. A, minima unde similique vel eos velit ratione quisquam dolorem mollitia quibusdam id dolores
+            laboriosam.
+            Esse voluptas, ducimus dignissimos tempore pariatur perspiciatis cupiditate in debitis culpa, perferendis
+            veritatis quidem, quibusdam hic inventore maxime placeat numquam quasi autem commodi ea. Ipsam eius placeat
+            quia voluptatibus blanditiis?</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-center mb-5">
+
+      <div class="parag d-flex align-items-center mt-5 col-6">
+        <div data-aos="fade-up" data-aos-duration="8000">
+          <h1>FARM</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quasi reiciendis optio eius adipisci,
+            ut molestias quae amet minima in rem quibusdam libero! Fuga nisi dicta aspernatur cumque eaque laboriosam!
+            Nihil nisi, nesciunt consequatur aspernatur maxime voluptas mollitia perspiciatis, placeat fuga ducimus
+            soluta pariatur non eligendi impedit cum. Sequi esse ratione odit excepturi natus praesentium, dicta totam
+            rem incidunt amet.
+            Nulla modi magnam iusto officia aliquam velit sunt amet ipsam eos quidem pariatur facere nihil accusantium,
+            nam laboriosam. Distinctio sequi repellendus explicabo eum, numquam est quibusdam at esse quaerat deleniti?
+            Quae pariatur tempore, alias ipsa laudantium iusto blanditiis velit sapiente reprehenderit. Dicta ad non
+            perferendis. A, minima unde similique vel eos velit ratione quisquam dolorem mollitia quibusdam id dolores
+            laboriosam.
+            Esse voluptas, ducimus dignissimos tempore pariatur perspiciatis cupiditate in debitis culpa, perferendis
+            veritatis quidem, quibusdam hic inventore maxime placeat numquam quasi autem commodi ea. Ipsam eius placeat
+            quia voluptatibus blanditiis?</p>
+        </div>
+      </div>
+
+      <div class="mt-5 col-6">
+
+        <div data-aos="zoom-in-right">
+          <div class="img-index-farm">
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
-<script src="app.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="ta" href="">TeamAnonymous.html</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init();
-</script>
-<script src="https://kit.fontawesome.com/f9227848b8.js" crossorigin="anonymous"></script>
+  </script>
+  <script src="https://kit.fontawesome.com/f9227848b8.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

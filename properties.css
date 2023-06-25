@@ -1,0 +1,147 @@
+.properties{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.properties .content-header{
+    background: rgba(0, 0, 0, 0.4)url(img-properties/real-estate-content.jpeg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-header h1{
+    color: #ffbb00;
+    font-size: 5rem;
+}
+
+.content-header h1::selection{
+    background: #fff;
+    color: #444;
+}
+
+.content-header p{
+    color: #fff;
+    font-size: 2rem;
+}
+.content-header p::selection{
+    background: #fff;
+    color: #444;
+}
+
+.properties .property{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.property .box{
+    flex: 1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box h3{
+    font-size: 2.7rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.box h3::selection{
+    background: #444;
+    color: #ffbb00;
+}
+
+.box p{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    margin-top: 30px;
+    color: #444;
+}
+
+.box p::selection{
+    background: #444;
+    color: #ffbb00;
+}
+
+.box button{
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    background: #444;
+    color: #ffbb00;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.box button:hover{
+    background: #ffbb00;
+    color: #444;
+}
+
+@media (max-width:1080px){
+    .box h3{
+        font-size: 2.7rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .box p{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:1020px){
+    .property{
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    .property .box{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:800px){
+    .content-header h1{
+        font-size: 3rem;
+    }
+    
+    .content-header p{
+        font-size: 1rem;
+    }
+}
+@media (max-width:420px){
+    .content-header h1{
+        font-size: 2rem;
+    }
+    
+    .content-header p{
+        display: none;
+    }
+}

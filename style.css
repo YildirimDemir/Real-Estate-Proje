@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: #ffbb00;
+}
+
+.navbar-brand{
+    color: #444;
+    font-weight: 600;
+}
+
+.offcanvas{
+    background: #ffbb00;
+    display: none;
+}
+.navbar-toggler{
+    display: none;
+}
+
+.offcanvas .btn{
+    background: #444;
+    color: #fff;
+}
+
+.navbar-links{
+    display: flex;
+    margin: auto;
+}
+
+.navbar-links li a{
+    color: #444;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0px 20px;
+    font-size: 1rem;
+    transition: .4s;
+    border-radius: 10px;
+}
+
+.navbar-links li a:hover{
+    background: #444;
+    color: #fff;
+}
+footer {
+    background-color: #ffbb00;
+    backdrop-filter: blur(5px);
+}
+.ta {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(78, 78, 78);
+}
+
+@media (max-width:950px) {
+    .navbar-links{
+        display: none;
+    }
+    .offcanvas{
+        display: block;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+
+    .nav-item a{
+        color: #444;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        transition: .4s;
+    }
+    .nav-item a:hover{
+        background: #444;
+        color: #fff;
+    }
+
+    .dropdown-toggle{
+        color: #444;
+    }
+
+    .dropdown-menu{
+        background: #444;
+    }
+
+    .dropdown-menu .dropdown-item{
+        color: #fff;
+        border-radius: 0;
+    }
+    .dropdown-menu .dropdown-item:hover{
+        color: #ffbb00;
+    }
+}
+
+/*Services*/
+.services .content-header{
+    background: rgba(0, 0, 0, 0.4)url(/img/img-services/services-header.jpeg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-header h1{
+    color: #ffbb00;
+    font-size: 5rem;
+}
+
+.content-header h1::selection{
+    background: #fff;
+    color: #444;
+}
+
+.content-header p{
+    color: #fff;
+    font-size: 2rem;
+}
+.content-header p::selection{
+    background: #fff;
+    color: #444;
+}
+
+.services{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .services-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services-content .service-header{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service-header .img-box{
+    width: 70%;
+    height: 100%;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.service-header .text-box{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box h1{
+    font-size: 3rem;
+}
+
+.text-box h1::selection{
+    background: #444;
+    color: #ffbb00;
+}
+
+.text-box p{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-box p::selection{
+    background: #444;
+    color: #ffbb00;
+}
+
+.services-content .service{
+    width: 70%;
+    height: 40vh;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service h1{
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.service h1::selection{
+    background: #444;
+    color: #ffbb00;
+}
+
+.service p{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.service p::selection{
+    background: #444;
+    color: #ffbb00;
+}
+
+@media (max-width:1000px){
+    .services-content{
+        padding: 20px;
+    }
+
+   .services-content .service-header{
+        flex-direction: column;
+        margin: 30px auto 30px auto;
+    }
+    .service-header .img-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service-header .text-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .services-content .service{
+        margin: 30px auto 30px auto;
+    }
+}
+
+@media (max-width:800px){
+    .content-header h1{
+        font-size: 3rem;
+    }
+    
+    .content-header p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:650px){
+
+    .services-content .service-header{
+        min-height: 50vh;
+    }
+    .text-box h1{
+        font-size: 2rem;
+    }
+
+    .service{
+        width: 100%;
+    }
+
+    .service h1{
+        font-size: 2rem;
+    }
+    
+    .service p{
+        font-size: .7rem;
+        width: 90%;
+    }
+    .service-header .img-box{
+        width: 100%;
+    }
+    
+    .service-header .text-box{
+        width: 100%;
+    }
+}
+
+@media (max-width:420px){
+    .content-header h1{
+        font-size: 2rem;
+    }
+    
+    .content-header p{
+        display: none;
+    }
+}
+
+@media (max-width:320px){
+    .service p{
+        display: none;
+    }
+    .services-content .service-header{
+        flex-direction: column;
+        margin: 10px auto 10px auto;
+    }
+    .service-header .img-box{
+        margin-bottom: 10px;
+    }
+    .service-header .text-box{
+        margin-bottom: 10px;
+    }
+    .services-content .service{
+        margin: 10px auto 10px auto;
+    }
+    .services-content .service-header{
+        min-height: 30vh;
+    }
+}
+
+/* Services end */
+
+/* Properties */
+.properties{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.properties .content-header{
+    background: rgba(0, 0, 0, 0.4)url(/img/img-properties/real-estate-content.jpeg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-header h1{
+    color: #ffbb00;
+    font-size: 5rem;
+}
+
+.content-header h1::selection{
+    background: #fff;
+    color: #444;
+}
+
+.content-header p{
+    color: #fff;
+    font-size: 2rem;
+}
+.content-header p::selection{
+    background: #fff;
+    color: #444;
+}
+
+.properties .property{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.property .box{
+    flex: 1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box h3{
+    font-size: 2.7rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.box h3::selection{
+    background: #444;
+    color: #ffbb00;
+}
+
+.box p{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    margin-top: 30px;
+    color: #444;
+}
+
+.box p::selection{
+    background: #444;
+    color: #ffbb00;
+}
+
+.box button{
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    background: #444;
+    color: #ffbb00;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.box button:hover{
+    background: #ffbb00;
+    color: #444;
+}
+
+@media (max-width:1080px){
+    .box h3{
+        font-size: 2.7rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .box p{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:1020px){
+    .property{
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    .property .box{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:800px){
+    .content-header h1{
+        font-size: 3rem;
+    }
+    
+    .content-header p{
+        font-size: 1rem;
+    }
+}
+@media (max-width:420px){
+    .content-header h1{
+        font-size: 2rem;
+    }
+    
+    .content-header p{
+        display: none;
+    }
+}
+/* PropertiesEnd */

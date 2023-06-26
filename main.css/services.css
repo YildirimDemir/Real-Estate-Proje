@@ -1,5 +1,5 @@
 .services .content-header{
-    background: rgba(0, 0, 0, 0.4)url(img-services/services-header.jpeg);
+    background: rgba(0, 0, 0, 0.4)url(/img/img-services/services-header.jpeg);
     background-blend-mode: darken;
     background-position: center;
     background-size: cover;

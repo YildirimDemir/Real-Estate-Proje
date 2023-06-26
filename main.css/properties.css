@@ -8,7 +8,7 @@
 }
 
 .properties .content-header{
-    background: rgba(0, 0, 0, 0.4)url(img-properties/real-estate-content.jpeg);
+    background: rgba(0, 0, 0, 0.4)url(/img/img-properties/real-estate-content.jpeg);
     background-blend-mode: darken;
     background-position: center;
     background-size: cover;

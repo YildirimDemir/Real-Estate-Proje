@@ -12,7 +12,7 @@ background-image: linear-gradient(62deg, #ffd6be 0%, #f9e5b2 100%);
 }
 
 .partners .content-header {
-    background: rgba(0, 0, 0, 0.4)url(image-our-partners/partners.jpg);
+    background: rgba(0, 0, 0, 0.4)url(/img/image-our-partners/partners.jpg);
     background-blend-mode: darken;
     background-position: center;
     background-size: cover;

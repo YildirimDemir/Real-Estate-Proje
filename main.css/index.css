@@ -1,5 +1,5 @@
 .img-index{
-    background-image: url(/image-index/home.jpg);
+    background-image: url(/img/image-index/home.jpg);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -9,7 +9,7 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .img-index-villa{
-background-image: url(/image-index/villa.jpg);
+background-image: url(/img/image-index/villa.jpg);
 width: 100%;
 height: 70vh;
 background-position: center;
@@ -17,7 +17,7 @@ background-size: cover;
 box-shadow: rgba(255, 187, 0, 0.4) 0px 5px, rgba(255, 187, 0, 0.3) 0px 10px, rgba(255, 187, 0, 0.2) 0px 15px, rgba(255, 187, 0, 0.1) 0px 20px, rgba(255, 187, 0, 0.05) 0px 25px;
 }
 .img-index-apartmen{
-    background-image: url(/image-index/apartment.jpg);
+    background-image: url(/img/image-index/apartment.jpg);
     width: 100%;
     height: 70vh;
     background-position: center;
@@ -25,7 +25,7 @@ box-shadow: rgba(255, 187, 0, 0.4) 0px 5px, rgba(255, 187, 0, 0.3) 0px 10px, rgb
     box-shadow: rgba(255, 187, 0, 0.4) 0px 5px, rgba(255, 187, 0, 0.3) 0px 10px, rgba(255, 187, 0, 0.2) 0px 15px, rgba(255, 187, 0, 0.1) 0px 20px, rgba(255, 187, 0, 0.05) 0px 25px;
 }
 .img-index-residance{
-    background-image: url(/image-index/residance.jpg);
+    background-image: url(/img/image-index/residance.jpg);
     width: 100%;
     height: 70vh;
     background-position: center;
@@ -33,7 +33,7 @@ box-shadow: rgba(255, 187, 0, 0.4) 0px 5px, rgba(255, 187, 0, 0.3) 0px 10px, rgb
     box-shadow: rgba(255, 187, 0, 0.4) 0px 5px, rgba(255, 187, 0, 0.3) 0px 10px, rgba(255, 187, 0, 0.2) 0px 15px, rgba(255, 187, 0, 0.1) 0px 20px, rgba(255, 187, 0, 0.05) 0px 25px;
 }
 .img-index-farm{
-    background-image: url(/image-index/farm.jpg);
+    background-image: url(/img/image-index/farm.jpg);
     width: 100%;
     height: 70vh;
     background-position: center;

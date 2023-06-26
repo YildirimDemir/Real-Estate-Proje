@@ -196,7 +196,7 @@ header {
         align-items: center;
     }
     .cnt img {
-        width: 500px;
+        width: 0px;
         margin-bottom: 1.5rem;
         border-radius: 40px;
         visibility: hidden;
@@ -206,8 +206,9 @@ header {
         align-items: center;
     }
     .cnt1 img {
-        width: 500px;
+        width: 0px;
         margin-bottom: 1.5rem;
         border-radius: 40px;
+        visibility: hidden;
     }
 }

@@ -1,6 +1,6 @@
 header {
     height: 90vh;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.315)),url(img-about/vila.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.315)),url(/img/img-about/vila.jpg);
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@ header {
     margin-bottom: auto;
 }
 .fx {
-    background-image: url(/img-about/fx1.jpg);
+    background-image: url(/img/img-about/fx1.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@ header {
     background-attachment: fixed;
 }
 .fx1 {
-    background-image: url(/img-about/fx2.jpg);
+    background-image: url(/img/img-about/fx2.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +63,7 @@ header {
     background-attachment: fixed;
 }
 .fx2 {
-    background-image: url(/img-about/fx3.jpg);
+    background-image: url(/img/img-about/fx3.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
